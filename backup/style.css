@@ -151,20 +151,16 @@ a{
     min-height: 300px;
     background-color: #0463FA;
     display: flex;
-    align-items: center;
-    color: #fff;
-    font-size: 56px;
-}
-
-.pambiq {
-    font-weight: bold;
 }
 
 .text{
-    padding: 50px;
     width: 50%;
     min-height: 100px;
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
 }
 
 .picture{
@@ -186,25 +182,32 @@ a{
     font-weight: bold;
 }
 
+.pambiq {
+    font-size: 56px;
+    color: #fff;
+    font-weight: bold;
+}
+
 .golden {
-    font-size: 36px;
     display: flex;
-    margin-top: 50px;
+    align-items: center;
     justify-content: space-between;
-    
+    width: 100%;
+    margin-top: 50px;
 }
 
 .jerry {
-    font-size: 32px;
-    padding-left: 30px;
     border-left: 1px solid #fff;
+    padding-left: 20px;
 }
 
-.golden h6 {
-    margin: 0px;
-    font-size: 32px;
+.jerry h6 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
 }
 
- .jerry span {
-    font-size: 16px;
- }
+.jerry span {
+    color: #fff;
+}
